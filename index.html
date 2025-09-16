@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing projects, skills and contact info." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">RY</div>
+        <div>
+          <div class="name">Rinret Yakubu</div>
+          <div class="subtitle">Backend developer — learning Go & React</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Hi, I’m <strong>Rinret</strong> 👋</h1>
+        <p class="lead">I build backend services with <strong>Go</strong> and frontends with <strong>React</strong>. Currently learning MongoDB and deploying full-stack apps.</p>
+        <div class="cta">
+          <a class="btn primary" href="https://github.com/ryakubu" target="_blank">View my GitHub</a>
+          <a class="btn" href="#projects">See projects</a>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <h3>About me</h3>
+            <p>I enjoy building APIs, learning new backend patterns, and contributing to open source. I’m available for collaboration and junior backend roles.</p>
+            <div class="pronouns">Pronouns: <strong>they/them</strong></div>
+          </div>
+
+          <div class="card">
+            <h3>Quick links</h3>
+            <a class="link-inline" href="#projects">Projects</a>
+            <a class="link-inline" href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a class="link-inline" href="mailto:you@example.com">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="profile-info">
+          <div class="avatar large">RY</div>
+          <div>
+            <div class="name">Rinret Yakubu</div>
+            <div class="subtitle">Abuja, Nigeria · Available for hire</div>
+          </div>
+        </div>
+        <div class="local-time">
+          <span>Local time</span>
+          <div id="time"></div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <div class="project-thumb">Go CRUD API</div>
+          <h3>go-crud-api</h3>
+          <p>REST API with Go + MongoDB — demonstrates CRUD, routing, and tests.</p>
+          <div class="tags">
+            <div class="tag">Go</div>
+            <div class="tag">MongoDB</div>
+            <div class="tag">REST</div>
+          </div>
+          <a class="btn" href="https://github.com/ryakubu/go-crud-api" target="_blank">View repo</a>
+        </div>
+
+        <div class="card">
+          <div class="project-thumb">React Portfolio</div>
+          <h3>portfolio-site</h3>
+          <p>Personal site built with React + Vite + Tailwind. Hosted on GitHub Pages.</p>
+          <div class="tags">
+            <div class="tag">React</div>
+            <div class="tag">Vite</div>
+            <div class="tag">Tailwind</div>
+          </div>
+          <a class="btn" href="https://github.com/ryakubu/portfolio-site" target="_blank">View repo</a>
+        </div>
+
+        <div class="card">
+          <div class="project-thumb">CLI Tool</div>
+          <h3>todo-cli</h3>
+          <p>Small Go CLI for managing todo items locally. Great for learning building and packaging Go tools.</p>
+          <div class="tags">
+            <div class="tag">Go</div>
+            <div class="tag">CLI</div>
+            <div class="tag">Learning</div>
+          </div>
+          <a class="btn" href="https://github.com/ryakubu/todo-cli" target="_blank">View repo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card skills">
+        <div class="tag">Golang</div>
+        <div class="tag">MongoDB</div>
+        <div class="tag">REST APIs</div>
+        <div class="tag">HTTP</div>
+        <div class="tag">React</div>
+        <div class="tag">HTML/CSS</div>
+        <div class="tag">Git</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card contact">
+        <p>If you’d like to work together or want to see more code, reach out:</p>
+        <p><strong>Email:</strong> <a class="link-inline" href="mailto:you@example.com">you@example.com</a></p>
+        <p><strong>LinkedIn:</strong> <a class="link-inline" href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Rinret Yakubu · <span>Built with HTML & CSS</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
